@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables en HTML</title>
+</head>
+<body>
+    <h1>Variables en HTML</h1>
+
+    <script>
+        /* para declarar una variable utilizamos
+            la palabra reservada "let"
+        */
+       let numero = 2;
+       let frase = 'hola mundo';
+
+        /* para declarar una constante utilizamos
+            la palabra reservada "const"
+        */
+        const PI = 3.141;
+
+       //document.write( frase );
+
+        /*
+            pedimos al usuario que complete su nombre
+        */
+       let nombre = prompt('Complete su nombre');
+       document.write( 'Bienvenido: ' + nombre ); //concatenación
+
+
+       document.addEventListener(
+                'contextmenu',
+                function(e){
+                    e.preventDefault();
+                    document.write('no veas mi código');
+                }
+       );
+
+
+
+    </script>
+</body>
+</html>
