@@ -3,7 +3,7 @@ const contenedor = document.getElementById('contenedor');
 
 // hacer pregunta al usuario
 // almacenar la respuesta en memoria
-let respuesta = prompt('¿qué seleccionado ganóa la copa mundial Qatar 2023?');
+let respuesta = prompt('¿qué seleccionado ganó la copa mundial Qatar 2023?');
 
 if( respuesta.toLowerCase() == 'argentina' ){
     //bloque a ejecutar si la condición es true
