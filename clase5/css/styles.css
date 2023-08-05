@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #282424;
+    font-family: 'Fira Sans';
+    font-size: 1.2em;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    #formulario{
+        background-color: rgba(79, 147, 94, 0.17);
+        width: 624px;
+        padding: 80px 64px;
+        border-radius: 12px;
+        font-family: 'Fira Sans';
+        font-size: 1.2em;
+    }
+    #formulario input,
+    #formulario textarea
+    {
+        width: 100%;
+        padding: 12px;
+        background-color: #71f482;
+        margin-bottom: 24px;
+        border-radius: 8px;
+        font-family: 'Fira Sans';
+        font-size: 1.2em;
+        color: #243e24;
+    }
+    #formulario input::placeholder,
+    #formulario textarea::placeholder
+    {
+        font-family: 'Fira Sans';
+        font-size: 1.2em;
+        color: #293e29;
+    }
+    #formulario textarea{
+        height: 156px;
+        resize: none;
+    }
+    #formulario button{
+        width: 180px;
+        padding: 8px 12px;
+        background-color: #145e14;
+        color: #71f482;
+        border-radius: 8px;
+        border: none;
+        font-family: 'Fira Sans';
+        font-size: 1.2em;
+        transition: 500ms;
+    }
+    #formulario button:hover{
+        background-color: #1f801f;
+        cursor: pointer;
+
+    }
